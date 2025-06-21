@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wanteditems:item/myths_and_legends_lucky_box"
+  }
+}

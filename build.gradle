@@ -3,6 +3,7 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'net.neoforged.moddev' version '2.0.78'
+    id 'org.jetbrains.kotlin.jvm' version '2.0.21'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -19,6 +20,13 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven {
+        url "https://cursemaven.com"
+    }
+    maven {
+        name = 'Kotlin for Forge'
+        url = 'https://thedarkcolour.github.io/KotlinForForge/'
+    }
 }
 
 base {
@@ -134,6 +142,14 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation "curse.maven:cobblemon-687131:6125026"
+//    implementation 'thedarkcolour:kfflang:5.8.0'
+//    implementation 'thedarkcolour:kfflib:5.8.0'
+//    implementation 'thedarkcolour:kffmod:5.8.0'
+    // NEOFORGE
+    implementation 'thedarkcolour:kotlinforforge-neoforge:5.8.0'
+    implementation files("libs/MythsAndLegends-neoforge-1.7.2-Hotfix.jar")
+    implementation files("libs/architectury-13.0.8-neoforge.jar")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

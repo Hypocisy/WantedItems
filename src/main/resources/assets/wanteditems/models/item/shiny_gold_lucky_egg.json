@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wanteditems:item/shiny_gold_lucky_egg"
+  }
+}

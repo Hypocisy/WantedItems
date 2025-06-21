@@ -1,0 +1,31 @@
+{
+  "item_group.wanteditems.title": "Wanted Items",
+
+  "item.wanteditems.gender_swapper": "성별전환",
+  "item.wanteditems.shiny_swapper": "샤이니전환",
+
+  "item.wanteditems.ev_randomizer": "노력치무작위",
+  "item.wanteditems.iv_randomizer": "개체치무작위",
+  "item.wanteditems.level_randomizer": "레벨무작위",
+
+  "item.wanteditems.silver_lucky_egg": "은색행운의알",
+  "item.wanteditems.shiny_silver_lucky_egg": "반짝이는 은색행운의알",
+  "item.wanteditems.gold_lucky_egg": "금색행운의알",
+  "item.wanteditems.shiny_gold_lucky_egg": "반짝이는 금색행운의알",
+  "item.wanteditems.cobblemon_lucky_box": "코블몬 럭키박스",
+  "item.wanteditems.myths_and_legends_lucky_box": "Myths and Legends 럭키박스",
+
+  "item.wanteditems.bottle_cap": "은색병뚜껑",
+  "item.wanteditems.bottle_cap_hp": "은색병뚜껑 (HP)",
+  "item.wanteditems.bottle_cap_atk": "은색병뚜껑 (공격)",
+  "item.wanteditems.bottle_cap_def": "은색병뚜껑 (방어)",
+  "item.wanteditems.bottle_cap_spa": "은색병뚜껑 (특수공격)",
+  "item.wanteditems.bottle_cap_spd": "은색병뚜껑 (특수방어)",
+  "item.wanteditems.bottle_cap_spe": "은색병뚜껑 (스피드)",
+  "item.wanteditems.gold_bottle_cap": "금색병뚜껑",
+  "item.wanteditems.copper_bottle_cap": "황색병뚜껑",
+
+  "item.wanteditems.error.has_maximum_stats": "%s(은)는 이미 스탯이 최대치입니다.",
+  "item.wanteditems.error.has_zero_stats": "%s(은)는 이미 스탯이 0 입니다.",
+  "item.wanteditems.error.is_genderless": "%s 성별이 없습니다."
+}
